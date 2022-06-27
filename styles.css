@@ -26,7 +26,7 @@
   transition: margin-top 0.5s linear;
   border: 3px solid #e4e4e4;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
   padding: 15px 30px;
 }
@@ -39,9 +39,10 @@
   transition: margin-top 0.4s linear;
   border: 3px solid #0abf53;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
   padding: 15px 30px;
+  position: relative;
 }
 
 .pakage .price {
@@ -166,9 +167,9 @@ li::before {
   width: 64px;
   height: 64px;
   background-color: #0abf53;
-  position: relative;
-  top: -15px;
-  left: -30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   border-radius: 3px;
   background: linear-gradient(135deg, #0abf53 0%, #0abf53 50%, transparent 0%);
   border-color: #0abf53;
@@ -180,3 +181,73 @@ li::before {
   left: -10px;
   color: #fff;
 }
+
+.sidebar {
+  width: 90px;
+  background-color: #0d1326;
+  padding: 5px;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  height: 300px;
+  overflow: auto;
+  border-radius: 7px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.back {
+  color: #d6dae8;
+  font-weight: 300px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.upper {
+  text-align: center;
+}
+
+.back .back-text {
+  font-size: 1.1em;
+  display: block;
+}
+
+.custom-a-tag {
+  text-decoration: none;
+  opacity: 60%;
+  color: #d6dae8;
+}
+
+.custom-a-tag:hover {
+  text-decoration: none;
+  color: #d6dae8;
+  opacity: 100%;
+}
+/* 
+.back .download-text {
+  display: block;
+  text-align: left;
+} */
+
+.lower {
+  margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  border-top: 1px solid #605f5fd6;
+}
+
+.upper {
+  padding-top: 15px;
+}
+
+/* hr {
+  width: 100%;
+  position: absolute;
+
+  border-color: #d6dae8;
+  margin-left: -10px;
+  opacity: 50%;
+} */
